@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.DetailsActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bar_item_height"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tan_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/home_tv"
+                style="@style/CategoryStyle"
+                android:background="@color/home_color"
+                android:text="@string/home_title" />
+
+            <TextView
+                android:id="@+id/nowplaying_tv"
+                style="@style/CategoryStyle"
+                android:background="@color/nowplaying_color"
+                android:text="@string/nowplaying_title" />
+
+            <TextView
+                android:id="@+id/details_tv"
+                style="@style/CategoryStyle"
+                android:background="@color/details_color"
+                android:text="@string/details_title" />
+
+            <TextView
+                android:id="@+id/search_tv"
+                style="@style/CategoryStyle"
+                android:background="@color/search_color"
+                android:text="@string/search_title" />
+
+            <TextView
+                android:id="@+id/store_tv"
+                style="@style/CategoryStyle"
+                android:background="@color/store_color"
+                android:text="@string/store_title" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        style="@style/DescriptionStyle"
+        android:text="@string/details_description" />
+
+</LinearLayout>

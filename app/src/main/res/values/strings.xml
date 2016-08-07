@@ -1,0 +1,13 @@
+<resources>
+    <string name="home_title">Home</string>
+    <string name="nowplaying_title">Now Playing</string>
+    <string name="search_title">Search</string>
+    <string name="details_title">Details</string>
+    <string name="store_title">Buy Music</string>
+
+    <string name="home_description">Hello and Welcome!</string>
+    <string name="nowplaying_description">Current Song: Justin Bieber - Baby</string>
+    <string name="search_description">Search for more music</string>
+    <string name="details_description">App Details</string>
+    <string name="store_description">Search and buy the music you like</string>
+</resources>
