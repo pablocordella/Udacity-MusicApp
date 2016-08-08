@@ -22,11 +22,11 @@
             android:name=".SearchActivity"
             android:label="@string/search_title" />
         <activity
-            android:name=".DetailsActivity"
-            android:label="@string/details_title" />
+            android:name=".YourMusicActivity"
+            android:label="@string/yourmusic_title" />
         <activity
-            android:name=".StoreActivity"
-            android:label="@string/store_title" />
+            android:name=".RadioActivity"
+            android:label="@string/radio_title" />
     </application>
 
 </manifest>

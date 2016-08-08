@@ -31,10 +31,10 @@
                 android:text="@string/nowplaying_title" />
 
             <TextView
-                android:id="@+id/details_tv"
+                android:id="@+id/yourmusic_tv"
                 style="@style/CategoryStyle"
-                android:background="@color/details_color"
-                android:text="@string/details_title" />
+                android:background="@color/yourmusic_color"
+                android:text="@string/yourmusic_title" />
 
             <TextView
                 android:id="@+id/search_tv"
@@ -43,10 +43,10 @@
                 android:text="@string/search_title" />
 
             <TextView
-                android:id="@+id/store_tv"
+                android:id="@+id/radio_tv"
                 style="@style/CategoryStyle"
                 android:background="@color/store_color"
-                android:text="@string/store_title" />
+                android:text="@string/radio_title" />
 
         </LinearLayout>
 

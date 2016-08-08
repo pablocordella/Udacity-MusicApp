@@ -2,12 +2,12 @@
     <string name="home_title">Home</string>
     <string name="nowplaying_title">Now Playing</string>
     <string name="search_title">Search</string>
-    <string name="details_title">Details</string>
-    <string name="store_title">Buy Music</string>
+    <string name="yourmusic_title">Your Music</string>
+    <string name="radio_title">Radio</string>
 
-    <string name="home_description">Hello and Welcome!</string>
-    <string name="nowplaying_description">Current Song: Justin Bieber - Baby</string>
-    <string name="search_description">Search for more music</string>
-    <string name="details_description">App Details</string>
-    <string name="store_description">Search and buy the music you like</string>
+    <string name="home_description">This activity will show general news about music, current trends and new info about this app</string>
+    <string name="nowplaying_description">This activity will show the current song the user is playing. To implement this, I would use MediaPlayer class that can reproduce downloaded song or remote songs from URLs </string>
+    <string name="search_description">This activity will show an editText for the user to search any song/artist he may like. From here, the user will be able to buy songs and download them, so I would need to implement In-app purchases by adding com.android.vending.BILLING in the AndroidManifest.xml </string>
+    <string name="yourmusic_description">This activity will show saved music by the user. Including Playlists, Radios, Albums an Artists</string>
+    <string name="radio_description">This activity will show the user a selection of different radio stations, ordered by type, recently played, recommended, etc</string>
 </resources>

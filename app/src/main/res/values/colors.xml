@@ -8,7 +8,7 @@
     <color name="home_color">#FD8E09</color>
     <color name="nowplaying_color">#379237</color>
     <color name="search_color">#8800A0</color>
-    <color name="details_color">#16AFCA</color>
+    <color name="yourmusic_color">#16AFCA</color>
     <color name="store_color">#F06619</color>
 
 </resources>

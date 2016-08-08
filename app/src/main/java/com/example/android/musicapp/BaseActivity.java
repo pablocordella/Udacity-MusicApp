@@ -3,7 +3,6 @@ package com.example.android.musicapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -39,25 +38,25 @@ public class BaseActivity extends AppCompatActivity {
             });
         }
 
-        TextView storeTV = (TextView)(findViewById(R.id.store_tv));
-        if( storeTV != null ) {
-            storeTV.setOnClickListener(new View.OnClickListener() {
+        TextView radioV = (TextView)(findViewById(R.id.radio_tv));
+        if( radioV != null ) {
+            radioV.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (isInFront("StoreActivity")) return;
-                    Intent intent = new Intent(BaseActivity.this, StoreActivity.class);
+                    if (isInFront("RadioActivity")) return;
+                    Intent intent = new Intent(BaseActivity.this, RadioActivity.class);
                     startActivity(intent);
                 }
             });
         }
 
-        TextView detailTV = (TextView)(findViewById(R.id.details_tv));
-        if( detailTV != null ) {
-            detailTV.setOnClickListener(new View.OnClickListener() {
+        TextView yourMusicTV = (TextView)(findViewById(R.id.yourmusic_tv));
+        if( yourMusicTV != null ) {
+            yourMusicTV.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (isInFront("DetailsActivity")) return;
-                    Intent intent = new Intent(BaseActivity.this, DetailsActivity.class);
+                    if (isInFront("YourMusicActivity")) return;
+                    Intent intent = new Intent(BaseActivity.this, YourMusicActivity.class);
                     startActivity(intent);
                 }
             });
